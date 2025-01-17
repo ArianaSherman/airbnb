@@ -11,5 +11,7 @@
 -- | Avondale               |
 -- | Belmont Cragin         |
 -- | Beverly                |
-
+SELECT DISTINCT(neighborhood) AS "Neighborhood"
+FROM listings
+ORDER BY Neighborhood;
 
